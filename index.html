@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Gateway</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="nav-left">
+            <a href="index.html"><img src="images/logo.png" alt="logo" class="logo"></a> 
+         </div>
+        <div class="nav-right">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="static/about.html">About</a></li>
+                <li><a href="static/contact.html">Contact Us</a></li>
+                <li> <a href="https://rzp.io/l/ClFkjKtIH"><button class="btn">Donate Now</button></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="landing-page">
+        <div class="cover-box">
+            <h1><span>Donate </span> For A Good Cause</h1>
+            <p>A little contribution can't change the world but it can change someone's world</p>
+            <a href="https://rzp.io/l/ClFkjKtIH"><button class="btn">Donate Now</button></a>
+        </div>
+        <div class="bg-pic">
+            <img src="images/bg-cover2.png" alt="image">
+
+        </div>
+    </div>
+    <!-- <div class="razorpay-embed-btn" data-url="https://pages.razorpay.com/pl_HIz4f1vmbs5WJ1/view" data-text="Donate Now" data-color="#528FF0" data-size="medium"> -->
+    <script>
+        (function () {
+            var d = document; var x = !d.getElementById('razorpay-embed-btn-js')
+            if (x) {
+                var s = d.createElement('script'); s.defer = !0; s.id = 'razorpay-embed-btn-js';
+                s.src = 'https://cdn.razorpay.com/static/embed_btn/bundle.js'; d.body.appendChild(s);
+            } else {
+                var rzp = window['__rzp__'];
+                rzp && rzp.init && rzp.init()
+            }
+        })();
+    </script>
+    </div>
+<footer class="footer-section">
+    <div class="copyright">
+        <!-- <hr style="border-top: 0px" style="opacity: 0.25"> -->
+
+        <p>Copyright &copy; 2021 donateium.com All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+
+</html>
+
+
+<!-- https://rzp.io/l/ClFkjKtIH -->

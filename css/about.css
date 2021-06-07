@@ -1,0 +1,42 @@
+.about-section{
+    background-color: rgb(238, 244, 248);
+    height: 100vh;
+    display: flex;
+}
+.about-box{
+    border: 1.5px solid #fff;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: 35px auto;
+    height: 450px;
+    width: 50%;
+    
+    
+}
+.about-logo{
+    border: 1.5px solid #fe695d;
+    display: flex;
+    width: 20%;
+    height: 28%;
+    border-radius: 120px;
+    margin: 20px auto;
+    padding: auto;
+   
+
+}
+.about-logo-img{
+    height: 90px;
+    margin: auto;
+}
+.about-header{
+    text-align: center;
+    color: #333333;
+}
+.about-content{
+    text-align: justify;
+    max-width: 80%;
+    margin: 30px auto;
+    color: #818181;
+    line-height: 1.5;
+}
